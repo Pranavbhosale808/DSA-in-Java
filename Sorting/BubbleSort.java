@@ -12,18 +12,22 @@ public class BubbleSort {
         int n = arr.length;
 
         for(int i=n-1;i>=0;i--){
+            boolean flag = false;
             for(int j=0;j<=i-1;j++){
                 if(arr[j]>arr[j+1]){
                     swap(arr, j, j+1);
+                    flag=true;
                 }
             }
+            if(!flag) break;
+            // System.out.println("runs");
         }
         System.out.println(Arrays.toString(arr));
     }
 
     public static void main(String[] args) {
     
-        int arr[] = {9,8,7,6,5,4,3,2,1,0};
+        int arr[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
         bubbleSort(arr);
     }
     
