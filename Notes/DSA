@@ -1,0 +1,52 @@
+N -> Items in shop = No of elements in array = arr[n]
+X -> Discount = given
+Y -> reduce from the cost of every element in array = arr[i]-Y
+Condn -> If arr[i]<y therefore y=0
+
+
+Total amount without coupan = arr[0]+arr[1]....+arr[n]
+Total amount with coupn = arr[0] - y + arr[1] .... +arr[n]-y
+
+
+Decide coupon or not coupon
+If (Total amount with coupn  < Total amount without coupan)then COUPON
+NOT COUPON 
+
+
+1. Find the total sum of the array totalSum
+2. Find total sum of array with discount totalSumWithDiscount
+3. Check if (X+totalSumWithDiscount) < totalSum
+    if yes : COUPON
+    else : NOT COUPON
+
+
+5
+4 30 10
+15 8 22 6
+4 40 10
+
+Q2) Cost of Groceries
+
+N-> 2 
+X-> 20
+arr[A] -> 15 67 ( array of fresheness) 
+arr[B] -> 10 90 ( prices )
+
+
+n-> length of the array
+x-> minimum freshness 
+arr[a] -> array of freshness
+arr[b] -> cost of the products 
+
+1. Check the freshness is greater than the given freshness
+2. reterive that freshness and get the prices of the element and return the total price
+
+Apporoach:
+
+
+
+
+
+
+
+
