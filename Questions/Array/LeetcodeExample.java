@@ -1,26 +1,14 @@
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
 
-public class Questions {
+public class LeetcodeExample {
 
     public static int singleNumber(int nums[]){
+        int result = 0;
 
-      Map<Integer,Integer> myMap = new HashMap<>();
-      int count  = 0;
-      int n = nums.length;
-
-      for(int i=0;i<n;i++){
-        for(int j = i+1;j<n;j++){
-            if(nums[i]==nums[j]){
-                count++;
-            }
+        for(int val:nums){
+            result ^=val;
+            System.out.println(val + ": " + result);
         }
-        myMap.put(count, i);
-      }
-
-      
+        return result;
 
     }
 
