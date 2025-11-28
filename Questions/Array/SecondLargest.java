@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package Questions.Array;
 
 public class SecondLargest {
 
@@ -34,24 +34,6 @@ public class SecondLargest {
         
         int arr[] = {1,1,3,1,2,3,4,1,2,3};
         removeDuplicateFromArray(arr);
-        // int res = secondLargest(arr);
-        // System.out.println(res);
-        // int largest = arr[0];
-        // int secondLargest = -1;
-
-        // for(int i=1;i<arr.length;i++){
-        //     if(arr[i]>largest){
-        //         largest=arr[i];
-        //     }
-        // }
-
-        // for(int i=0;i<arr.length;i++){
-        //     if(arr[i]<largest && secondLargest<arr[i]){
-        //             secondLargest=arr[i];
-        //     }
-        // }
-
-        // System.out.println("Second Largest elemnt in array "+secondLargest);
     }
     
 }

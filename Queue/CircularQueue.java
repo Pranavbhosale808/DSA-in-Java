@@ -1,6 +1,6 @@
-import java.util.ArrayDeque;
 
-public class ArrayQueue {
+
+public class CircularQueue {
     int front;
     int rear;
     int maxSize;
@@ -8,7 +8,7 @@ public class ArrayQueue {
     int count;
 
 
-    public ArrayQueue(int size){
+    public CircularQueue(int size){
         front=0;
         rear = -1;
         this.maxSize=size;
@@ -63,7 +63,7 @@ public class ArrayQueue {
     }
 
     public static void main(String[] args) {
-        ArrayQueue arrayQueue = new ArrayQueue(5);
+        CircularQueue arrayQueue = new CircularQueue(5);
 
         arrayQueue.eneque(10);
         arrayQueue.eneque(2);
