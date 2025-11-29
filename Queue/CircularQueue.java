@@ -30,7 +30,7 @@ public class CircularQueue {
         if(isEmpty()){
             System.out.println("Queue is Empty add some elements ");
         }
-        int val = arr[front];
+        int val = arr[front]; 
         front = (front + 1) % maxSize;
         count--;
         return val;
