@@ -1,4 +1,4 @@
-package Array;
+package Array.Sort;
 
 
 public class LeetcodeExample {
