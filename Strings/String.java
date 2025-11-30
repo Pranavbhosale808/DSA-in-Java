@@ -1,4 +1,4 @@
-package Questions.Strings;
+package Strings;
 
 public class String {
     

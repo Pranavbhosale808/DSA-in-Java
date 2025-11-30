@@ -1,4 +1,4 @@
-package Questions.Array;
+package Array;
 
 public class CheckCoupon {
     public static void main(String[] args) {
