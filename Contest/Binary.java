@@ -24,6 +24,7 @@ public class Binary {
     }
 
     public static String addBinary(String a , String b){
+        return b;
         
     }
 

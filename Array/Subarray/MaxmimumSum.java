@@ -1,4 +1,4 @@
-package Array.Subarray;
+package Subarray;
 
 public class MaxmimumSum {
 

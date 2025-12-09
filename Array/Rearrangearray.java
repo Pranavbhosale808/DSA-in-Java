@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Rearrangearray {
 
@@ -26,6 +28,21 @@ public class Rearrangearray {
        return nums;
     }
 
+    public static void rearrangeArrayVariation(int arr[]){
+        int n = arr.length;
+        List<Integer> poslst = new ArrayList<>();
+        List<Integer> neglst = new ArrayList<>();
+
+        for(int i=0;i<n;i++){
+            if(arr[i]>=0) poslst.add(arr[i]);
+            else neglst.add(arr[i]);
+        }
+
+        for(int i=0;i<n;i++){
+            arr[i*2] = poslst.get(i);
+            arr[i*2+1] = neglst.get(i);
+        }
+    }
     public static void main(String[] args) {
         
         int arr[] = {3,1,-2,-5,2,-4};
