@@ -1,12 +1,7 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
+
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
-import java.util.HashSet;
-import java.util.List;
+
 
 public class Isomorphics {
 
@@ -45,15 +40,6 @@ public class Isomorphics {
         return tempstring.toString();
     }
 
-    public static char findTheDifference(String s, String t) {
-       List<Character> temp = new ArrayList<>();
-        for(int i=0;i<s.length();i++){
-            temp.add(s.charAt(i));
-        }
-
-                
-        
-    }
 
     
 
@@ -61,8 +47,6 @@ public class Isomorphics {
 
         String s = "abcd";
         String y = "abcde";
-
-        System.out.println(findTheDifference(s,y));
 
     }
 }
